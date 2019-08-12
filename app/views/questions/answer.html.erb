@@ -1,0 +1,16 @@
+<div class="container">
+  <h1>Stupid Coaching</h1>
+
+  <div class="">
+  <p class="">
+  <% if @answer == "I am going to work" %>
+  <%= "Great!" %>
+  <% elsif @answer[-1] == "?" %>
+  <%= "Silly question, get dressed and go to work!" %>
+  <% else  %>
+  <%= "I don't care, get dressed and go to work!" %>
+  <% end  %>
+  </p>
+  </div>
+</div>
+
